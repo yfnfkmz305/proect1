@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    height: 100%;
+  }
+  body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+  }
+  #sign-up{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    max-width: 400px;
+    padding:20px;
+    border-radius:10px;
+    background-color: rgba(253, 216, 170, 0.89);
+  }
+  label{
+    display:flex;
+    flex-direction:column;
+    gap: 6px;
+  }
+ .circle {
+    height: 50px;
+    width: 50px;
+    background-color: #fffb01;
+    border-radius: 50%;
+  }

@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.sectio-hero h1{ 
+    color: rgb(255, 255, 255);
+       font-size: 80px;
+    font-weight: 500;
+    line-height: 130%;
+   
+    
+}
+.sectio-hero p {
+    color: rgb(152, 152, 154);
+font-size: 18px;
+font-weight: 400;
+line-height: 150%;
+}
+.sectio-hero{
+    background: rgb(3, 0, 0);
+    text-align: center;
+}
+.main-footer{
+    background: rgb(56, 56, 56);
+    padding: 90px 10px 90px 10px;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+.main-footer p{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 75px;
+    text-transform: uppercase;
+}
+.section-greetings{
+    height: 120vh;
+    background: pink;
+    background-image: url("./assets/images/image.png");
+    background-size: cover;
+}
+.logo-box{
+    background: rgb(255, 255, 255);  
+    position: absolute;
+width: 618px;
+height: 86px;
+left: -67px;
+top: 390px;
+/* Автолейаут */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 10;
+padding: 10px 80px 10px 230px;
+border-radius: 174px;
+backdrop-filter: blur(4px);
+}
+.sectio-hero{
+    display:flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items:center;
+    gap:120px;  
+   
+}
+.sectio-hero img {
+    width: 900px;
+    
+}
+.sectio-modern-viewer h1{
+    color:black;
+    background-color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.sectio-modern-viewer {
+    width: 600px;
+
+}
+.sectio-hero p{
+    color: rgb(56, 56, 56);
+font-family: Poppins;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+}
